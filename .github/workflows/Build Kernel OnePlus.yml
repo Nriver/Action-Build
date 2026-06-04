@@ -156,7 +156,7 @@ on:
         type: boolean
         description: "是否添加Unicode不可见字码点绕过读取漏洞修复？"
         required: true
-        default: false
+        default: true
       SCHED_HMBIRD:
         type: boolean
         description: "是否添加风驰驱动1.0？"
@@ -166,7 +166,7 @@ on:
         type: boolean
         description: "是否添加轻量级Linux容器支持(DroidSpaces)？"
         required: true
-        default: false
+        default: true
       RE_KERNEL:
         type: boolean
         description: "是否添加Re-Kernel？"
