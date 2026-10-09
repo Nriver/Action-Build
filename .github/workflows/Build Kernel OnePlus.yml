@@ -6,7 +6,7 @@ on:
         type: choice
         description: "配置文件//Configuration file"
         required: true
-        default: oneplus_15
+        default: oneplus_ace3_pro_v
         options:
           - oneplus_nord_n30_se_5g_v
           - oneplus_10r_v
@@ -40,6 +40,7 @@ on:
           - oneplus_ace_3v_b
           - oneplus_pad_mt6897_b
           - oneplus_13r_b
+          - oneplus_ace3_pro_v
           - oneplus_ace3_pro_b
           - oneplus_ace5_b
           - oneplus_pad_pro_b
@@ -146,7 +147,7 @@ on:
         type: boolean
         description: "是否添加Unicode不可见字码点绕过读取漏洞修复？//Add patch for Unicode invisible code point read bypass vulnerability?"
         required: true
-        default: false
+        default: true
       SCHED_HMBIRD:
         type: boolean
         description: "是否添加风驰驱动1.0？//Add Fengchi (HMBIRD) Driver 1.0?"
@@ -156,7 +157,7 @@ on:
         type: boolean
         description: "是否添加轻量级Linux容器支持(DroidSpaces)？//Add lightweight Linux container support (DroidSpaces)?"
         required: true
-        default: false
+        default: true
       RE_KERNEL:
         type: boolean
         description: "是否添加Re-Kernel？//Add Re-Kernel?"
